@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+        }
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #808080;
+        }
+        
+        .navbar li {
+            float: left;
+        }
+        
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .banner{
+            background-color: #808080;
+            margin-top: 5px;
+            color: #FFFFFF;
+            min-height: 200px;
+        }
+
+        .punchline{
+            padding: 50px 0px 0px 70px;
+        }
+        
+        .btn{
+            text-decoration: none;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 40px;
+            background-color: #0051ff;
+            padding: 5px;
+        }
+
+        .details{
+            margin: 10px;
+            padding: 20px;
+            overflow: auto;
+            text-align: center;
+            text-transform: lowercase;
+            height: 100px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-container > div {
+            background-color: #808080;
+            margin: 15px;
+            width: 20%;
+            text-align: center;
+            line-height: 75px;
+            padding: 5%;
+        }
+
+        .logo-container {
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 2%;
+        }
+
+        .logo-container > div {
+            background-color: #808080;
+            margin: 10px;
+            width: 20%;
+            text-align: center;
+            line-height: 75px;
+        }
+
+
+        .footer-container {
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: #808080;
+        }
+
+        .footer-container > div {
+            width:50%;
+            line-height: 30px;
+        }
+</style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#home">logo</a></li>
+        <li style="float:right"><a class="active" href="#about">navigation</a></li>
+    </ul>
+    <div class="banner">
+        <div style="text-align: center;">Banner goes here</div>
+        <div class="punchline">
+            <p>punchline goes here</p>
+            <a class="btn" href="#">read more</a>
+        </div>
+    </div>
+    <div class="details">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium quasi porro quibusdam, impedit commodi velit quaerat id ut, magni unde quas nesciunt, distinctio enim consequatur? Voluptatum at minus est.
+    </div>
+    <div class="flex-container">
+        <div>service</div>
+        <div>service</div>
+        <div>service</div>
+    </div>
+
+    <div style="text-align: center;">
+        client logo goes here
+    </div>
+    
+    <div class="logo-container" style="margin-top:0">
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+    </div>
+
+    <div class="footer-container">
+        <div>
+            <ul style="list-style-type: none; padding:0px; margin: 0px;">
+                <li>Footer address</li>
+                <li>special symbol</li>
+            </ul>
+        </div>
+        <div style="text-align: right;">footer links</div>
+    </div>
+
+    <div style="background-color: #808080; padding-top:10px;">
+        <span>copy right</span>
+        <span style="float: right;">privacy</span>
+    </div>
+</body>
+</html>
