@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SourceControlAssignment1/ValidatorsDemo/.vs/ValidatorsDemo/v16
+/SourceControlFinalAssignment/SourceControlAssignment/.vs/SourceControlAssignment/v16/Server/sqlite3
