@@ -9,6 +9,7 @@ namespace SourceControlAssignment.Models
     public class Login
     {
         [Required]
+        [Display(Name="User Name")]
         public string UserName { get; set; }
 
         [Required]
