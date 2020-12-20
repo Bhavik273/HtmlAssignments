@@ -28,6 +28,7 @@ namespace SourceControlAssignment.Models
         [Compare("Password", ErrorMessage = "Password doesnot match")]
         [DataType(DataType.Password)]
         [NotMapped]
+        [ScaffoldColumn(false)]
         public string ConfirmPassword { get; set; }
 
         [Required]

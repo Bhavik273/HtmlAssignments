@@ -1,0 +1,59 @@
+﻿@model SourceControlAssignment.Models.UserProfile
+
+@{
+    ViewBag.Title = "Display";
+}
+
+<h2>Display</h2>
+
+<div>
+    <h4>UserProfile</h4>
+    <hr />
+    @if (!Model.isEmpty)
+    {
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.Label("Profile Image:")
+            </dt>
+
+            <dd>
+                @if (Model.Image != null)
+                {
+                    string base64String = Convert.ToBase64String(Model.Image);
+                    <img src="@String.Format("data:image/png;base64,{0}", base64String)" height="200" width="200" class="img-thumbnail" />
+                }
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.UserName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UserName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Contact)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Contact)
+            </dd>
+
+        </dl>
+    }
+</div>
+@if (ViewBag.Message != null)
+{
+    <h6 class="text-danger">@ViewBag.Message</h6>
+}
+<p>
+    @Html.ActionLink("Logout", "Logout")
+</p>
