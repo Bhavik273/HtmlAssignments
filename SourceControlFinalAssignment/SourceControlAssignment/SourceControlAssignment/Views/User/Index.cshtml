@@ -4,7 +4,7 @@
     ViewBag.Title = "Login";
 }
 
-<h2>Index</h2>
+<h2>Login</h2>
 
 
 @using (Html.BeginForm("Index","User",FormMethod.Post)) 
@@ -39,7 +39,7 @@
 }
 @if(ViewBag.Message != null)
 {
-    <h6 class="text-danger">@ViewBag.Message</h6>
+    <h5 class="text-danger">@ViewBag.Message</h5>
 }>
 
 <script src="~/Scripts/jquery-3.3.1.min.js"></script>
