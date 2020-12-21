@@ -98,6 +98,7 @@ namespace SourceControlAssignment.Controllers
         {
             var userProfile = Session["User"] as UserProfile; 
             logger.Info("User Logged Logged Out: UserName:" + userProfile.UserName + " Name:" + userProfile.Name);
+            Session.Abandon();
             FormsAuthentication.SignOut();
             return RedirectToAction("Index");
         }
