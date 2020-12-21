@@ -1,0 +1,4 @@
+2020-12-21 13:36:00,217 INFO SourceControlAssignment.Controllers.UserController - User Logged IN: UserName:bhavik Name:Bhavik Mojidra
+2020-12-21 13:36:14,478 INFO SourceControlAssignment.Controllers.UserController - User Logged Logged Out: UserName:bhavik Name:Bhavik Mojidra
+2020-12-21 13:39:26,780 INFO SourceControlAssignment.Controllers.UserController - User Logged IN: UserName:bhavik3 Name:Bhavik Sharma
+2020-12-21 13:39:31,624 INFO SourceControlAssignment.Controllers.UserController - User Logged Logged Out: UserName:bhavik3 Name:Bhavik Sharma

@@ -11,6 +11,7 @@ namespace SourceControlAssignment.Controllers
     public class UserController : Controller
     {
         UserDB db = new UserDB();
+        log4net.ILog logger = log4net.LogManager.GetLogger(typeof(UserController));
 
         public object FormAuthentication { get; private set; }
 
@@ -24,30 +25,40 @@ namespace SourceControlAssignment.Controllers
         [AllowAnonymous]
         public ActionResult Index(Login login)
         {
-            var user = db.Users.FirstOrDefault(u => u.UserName.Equals(login.UserName) && u.Password.Equals(login.Password));
-            if (user == null)
+            try
             {
-                ViewBag.Message = "User Name or Password is Incorrect";
-                return View();
-            }
-            else
-            {
-                FormsAuthentication.SetAuthCookie(user.UserName, false);
-                UserProfile userProfile = new UserProfile
+                var user = db.Users.FirstOrDefault(u => u.UserName.Equals(login.UserName) && u.Password.Equals(login.Password));
+                if (user == null)
                 {
-                    UserName = user.UserName,
-                    Name = user.Name,
-                    Contact = user.Contact,
-                    Image = db.UserImages.FirstOrDefault(u => u.User.ID == user.ID).Image
-                };  
-                TempData["User"] = userProfile;
-                return RedirectToAction("Display");
+                    ViewBag.Message = "User Name or Password is Incorrect";
+                    return View();
+                }
+                else
+                {
+                    FormsAuthentication.SetAuthCookie(user.UserName, false);
+                    UserProfile userProfile = new UserProfile
+                    {
+                        UserName = user.UserName,
+                        Name = user.Name,
+                        Contact = user.Contact,
+                        Image = db.UserImages.FirstOrDefault(u => u.User.ID == user.ID).Image
+                    };
+                    //TempData["User"] = userProfile;
+                    logger.Info("User Logged IN: UserName:" + userProfile.UserName + " Name:" + userProfile.Name);
+                    Session["User"] = userProfile;                    
+                    return RedirectToAction("Display");
+                }
+            } catch (Exception ex)
+            {
+                logger.Error("Exception:" + ex.StackTrace);
+                return RedirectToAction("Error");
             }
         }
 
+        [Authorize]
         public ActionResult Display()
         {
-            var user = TempData["User"] as UserProfile;
+            var user = Session["User"] as UserProfile;
             if (user == null)
             {
                 ViewBag.Message = "User Data not found";
@@ -62,7 +73,7 @@ namespace SourceControlAssignment.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(UserDetails user,HttpPostedFileBase upload)
+        public ActionResult Create(UserDetails user, HttpPostedFileBase upload)
         {
             if (upload != null && upload.ContentLength > 0)
             {
@@ -82,10 +93,18 @@ namespace SourceControlAssignment.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize]
         public ActionResult Logout()
         {
+            var userProfile = Session["User"] as UserProfile; 
+            logger.Info("User Logged Logged Out: UserName:" + userProfile.UserName + " Name:" + userProfile.Name);
             FormsAuthentication.SignOut();
             return RedirectToAction("Index");
+        }
+
+        public ActionResult Error()
+        {
+            return View();
         }
     }
 }

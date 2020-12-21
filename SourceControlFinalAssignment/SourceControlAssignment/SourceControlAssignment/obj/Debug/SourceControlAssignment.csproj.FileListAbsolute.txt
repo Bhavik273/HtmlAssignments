@@ -72,3 +72,5 @@ D:\Gateway Pre-Training Assignments\HtmlAssignments\SourceControlFinalAssignment
 D:\Gateway Pre-Training Assignments\HtmlAssignments\SourceControlFinalAssignment\SourceControlAssignment\SourceControlAssignment\obj\Debug\SourceControlAssignment.pdb
 D:\Gateway Pre-Training Assignments\HtmlAssignments\SourceControlFinalAssignment\SourceControlAssignment\SourceControlAssignment\obj\Debug\SourceControlAssignment.Migrations.Intitation.resources
 D:\Gateway Pre-Training Assignments\HtmlAssignments\SourceControlFinalAssignment\SourceControlAssignment\SourceControlAssignment\obj\Debug\SourceControlAssignment.csproj.GenerateResource.cache
+D:\Gateway Pre-Training Assignments\HtmlAssignments\SourceControlFinalAssignment\SourceControlAssignment\SourceControlAssignment\bin\log4net.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\SourceControlFinalAssignment\SourceControlAssignment\SourceControlAssignment\bin\log4net.xml
