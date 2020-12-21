@@ -158,7 +158,6 @@
     <Content Include="Views\User\Create.cshtml" />
     <Content Include="Views\User\Display.cshtml" />
     <Content Include="Views\User\Error.cshtml" />
-    <Content Include="Views\Error.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
