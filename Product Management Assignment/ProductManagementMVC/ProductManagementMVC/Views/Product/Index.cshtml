@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@ViewBag.Message</h2>
+@if (TempData["MsgType"] != null)
+{
+    <script type="text/javascript">
+        $(document).ready(() => {
+            var msg = @TempData["Message"].ToString();
+            if(@TempData["MsgType"].ToString().Equals("Success"))
+            {
+                toastr.success( "Welcome","Login Success");
+            }
+        })
+    </script>
+}

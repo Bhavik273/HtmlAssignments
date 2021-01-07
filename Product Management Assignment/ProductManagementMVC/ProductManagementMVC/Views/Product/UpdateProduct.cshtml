@@ -1,0 +1,120 @@
+﻿@model ProductManagementMVC.Models.Product
+
+@{
+    ViewBag.Title = "UpdateProduct";
+}
+
+<h2>UpdateProduct</h2>
+
+@using (Html.BeginForm("UpdateProduct","Product",FormMethod.Post,new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Product</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="container" style="margin-bottom:10px">
+        <div class="col-md-4">
+            <span class="control-label">Small Image</span>
+            <img class="img-thumbnail"
+                 src="@Url.Content(Model.SmallImagePath)" height="70" width="70" alt="Image not found" />
+        </div>
+        <div class="col-md-8">
+            Large Image Image
+            @if (String.IsNullOrEmpty(Model.LargeImagePath))
+            {
+                <img src="" alt="Image not Added" height="70" width="70" />
+            }
+            else
+            {
+                <img src="@Url.Content(Model.LargeImagePath)" height="70" width="70" alt="Image not found" />
+            }
+
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.Label("ID", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <input type="text" readonly class="form-control" value="@ViewBag.Id" name="ID" />
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Category, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Category, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Current Quantity", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            <input type="text" readonly value="@Model.Quantity"  class="form-control"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Add to current Qunatity", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ShortDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.ShortDescription, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.ShortDescription, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.LongDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.LongDescription, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.LongDescription, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Small Image", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <input type="file" name="SmallImage" />
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.Label("Large Image", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <input type="file" name="LargeImage" />
+        </div>
+    </div>
+    @Html.HiddenFor(model=>model.SmallImagePath)
+    @Html.HiddenFor(model=>model.LargeImagePath)
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Update" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
