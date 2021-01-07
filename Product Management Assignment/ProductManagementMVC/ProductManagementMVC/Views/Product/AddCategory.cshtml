@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Add Category";
+}
+
+<h2>AddCategory</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <div class="form-group">
+            @Html.Label("Categry", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="text" name="category" , class="form-control" required />
+            </div>
+        </div>
+        <div class="row"></div>
+        <div class="form-group" style="margin-top:5px">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section scripts{
+    <script src="~/Scripts/toastr.js"></script>
+    <script>
+        $(function () {
+            var msg = '@TempData["Msg"]';
+            var isSuccess = '@TempData["isSuccess"]'
+            console.log(msg, isSuccess)
+            if (msg.length > 0) {
+                if (isSuccess=='True')
+                    toastr.success(msg);
+                else
+                    toastr.error(msg);
+            }
+        })
+    </script>
+}

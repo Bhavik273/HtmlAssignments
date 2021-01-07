@@ -1,0 +1,12 @@
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\bin\Debug\ProductManagementModels.dll
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\bin\Debug\ProductManagementModels.pdb
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\obj\Debug\ProductManagementModels.csproj.CoreCompileInputs.cache
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\obj\Debug\ProductManagementModels.dll
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\obj\Debug\ProductManagementModels.pdb
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\bin\Debug\ProductManagementModels.dll.config
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\bin\Debug\EntityFramework.dll
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\bin\Debug\EntityFramework.xml
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\bin\Debug\EntityFramework.SqlServer.xml
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\obj\Debug\ProductManagementModels.csprojAssemblyReference.cache
+D:\ProductManagement\ProductManagementMVC\ProductManagementModels\obj\Debug\ProductManagementModels.csproj.CopyComplete

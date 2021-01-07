@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <link href="~/Content/toastr.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.5.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/toastr.min.js"></script>
+    <script src="~/Scripts/toastr.js"></script>
+    <link href="~/Content/sidebar.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="wrapper">
+        @if (Request.IsAuthenticated)
+        {
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <nav id="spy">
+                    <ul class="sidebar-nav nav">
+                        <li>
+                            @Html.ActionLink("Add new  Product", "AddProduct", "Product")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Edit Product", "EditProduct", "Product")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Add Catgory", "Add Category", "Product")
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        }
+        <!-- Page content -->
+    <div id="page-content-wrapper">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                   
+                    @Html.ActionLink("Product Management", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        @if (Request.IsAuthenticated)
+                        {
+                            <li class="nav">@Html.ActionLink("Logout", "Logout", "Login", "", new { @class = "nav navbar-link" })</li>
+                        }
+                        else
+                        {
+                            <li class="nav">@Html.ActionLink("Login", "Index", "Login", htmlAttributes: new { @class = "nav navbar-link" })</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-content inset" data-spy="scroll" data-target="#spy">
+            @RenderBody()
+            @RenderSection("scripts", required: false)
+        </div>
+    </div>
+    </div>
+</body>
+</html>
