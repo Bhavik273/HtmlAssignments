@@ -1,0 +1,108 @@
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApiUnitTest.dll.config
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApiUnitTest.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApiUnitTest.pdb
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\EntityFramework.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Newtonsoft.Json.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementModels.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApi.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Net.Http.Formatting.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Http.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Optimization.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Mvc.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Http.WebHost.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementMVC.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\WebGrease.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Razor.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\PagedList.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Antlr3.Runtime.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementModels.pdb
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementModels.dll.config
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApi.pdb
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApi.dll.config
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\EntityFramework.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Newtonsoft.Json.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Net.Http.Formatting.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Http.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Optimization.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Mvc.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Http.WebHost.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementMVC.pdb
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementMVC.dll.config
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Razor.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\PagedList.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Antlr3.Runtime.pdb
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.csprojAssemblyReference.cache
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.csproj.CoreCompileInputs.cache
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.csproj.CopyComplete
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.dll
+D:\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApiUnitTest.dll.config
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApiUnitTest.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApiUnitTest.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\EntityFramework.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Newtonsoft.Json.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementModels.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApi.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Net.Http.Formatting.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Http.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Optimization.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Mvc.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Http.WebHost.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementMVC.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\WebGrease.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Razor.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\PagedList.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Antlr3.Runtime.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementModels.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementModels.dll.config
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApi.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementWebApi.dll.config
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\EntityFramework.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Newtonsoft.Json.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Net.Http.Formatting.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Http.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Optimization.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Mvc.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Http.WebHost.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementMVC.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\ProductManagementMVC.dll.config
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.Razor.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\PagedList.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\Antlr3.Runtime.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.csprojAssemblyReference.cache
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.csproj.CoreCompileInputs.cache
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.csproj.CopyComplete
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\Product Management Assignment\ProductManagementMVC\ProductManagementWebApiUnitTest\obj\Debug\ProductManagementWebApiUnitTest.pdb
