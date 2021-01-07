@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagementWebApi", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagementModels", "ProductManagementModels\ProductManagementModels.csproj", "{A60EF9C2-A679-4EDD-877A-8AE726CD1781}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagementWebApiUnitTest", "ProductManagementWebApiProductManagamentApiUnitTest1\ProductManagementWebApiUnitTest.csproj", "{29EA9039-F010-4AFF-AD2F-DC05F3B153C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagementWebApiProductManagamentUnitTest", "ProductManagementWebApiProductManagamentUnitTest\ProductManagementWebApiProductManagamentUnitTest.csproj", "{CE953D1B-438B-4BA0-A2AF-B0F871A4BE15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{A60EF9C2-A679-4EDD-877A-8AE726CD1781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A60EF9C2-A679-4EDD-877A-8AE726CD1781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A60EF9C2-A679-4EDD-877A-8AE726CD1781}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29EA9039-F010-4AFF-AD2F-DC05F3B153C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29EA9039-F010-4AFF-AD2F-DC05F3B153C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29EA9039-F010-4AFF-AD2F-DC05F3B153C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29EA9039-F010-4AFF-AD2F-DC05F3B153C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE953D1B-438B-4BA0-A2AF-B0F871A4BE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE953D1B-438B-4BA0-A2AF-B0F871A4BE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE953D1B-438B-4BA0-A2AF-B0F871A4BE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE953D1B-438B-4BA0-A2AF-B0F871A4BE15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
