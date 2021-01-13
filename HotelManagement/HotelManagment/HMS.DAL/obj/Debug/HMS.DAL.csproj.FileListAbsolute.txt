@@ -1,0 +1,14 @@
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\HMS.DAL.dll.config
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\HMS.DAL.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\HMS.DAL.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\EntityFramework.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\HMS.Models.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\HMS.Models.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\EntityFramework.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\obj\Debug\HMS.DAL.csprojAssemblyReference.cache
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CoreCompileInputs.cache
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\obj\Debug\HMS.DAL.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.DAL\obj\Debug\HMS.DAL.pdb
