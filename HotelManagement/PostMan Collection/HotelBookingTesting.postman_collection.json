@@ -1,0 +1,909 @@
+{
+	"info": {
+		"_postman_id": "f6395808-418e-4e33-9bcf-79fa27f44128",
+		"name": "HotelBookingTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Hotel",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Hotel1\",\r\n    \"Address\":\"B-X,Abc street,Near someting, somewhere on earth\",\r\n    \"City\":\"Ahmedabad\",\r\n    \"Pincode\":\"123456\",\r\n    \"ContactNumber\":\"1234567890\",\r\n    \"ContactPerson\":\"Manager Govind\",\r\n    \"Website\":\"hotel1.com\",\r\n    \"Facebook\":\"hotel1\",\r\n    \"Twitter\":\"hotel1\",\r\n    \"IsActive\":true,\r\n    \"CreateBy\":\"Bhavik\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:50124/Hotels/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Hotels",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Hotel2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Hotel2\",\r\n    \"Address\":\"B-X,Abc street,Near someting, somewhere on earth\",\r\n    \"City\":\"Anand\",\r\n    \"Pincode\":\"456789\",\r\n    \"ContactNumber\":\"9876542109\",\r\n    \"ContactPerson\":\"Manager Haresh\",\r\n    \"Website\":\"hotel2.com\",\r\n    \"Facebook\":\"hotel2\",\r\n    \"Twitter\":\"hotel2\",\r\n    \"IsActive\":true,\r\n    \"CreateBy\":\"Bhavik\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:50124/Hotels/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Hotels",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Hotel3",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Hotel3\",\r\n    \"Address\":\"B-X,Abc street,Near someting, somewhere on earth\",\r\n    \"City\":\"Vadodra\",\r\n    \"Pincode\":\"456789\",\r\n    \"ContactNumber\":\"9876542109\",\r\n    \"ContactPerson\":\"Manager Rajesh\",\r\n    \"Website\":\"hotel3.com\",\r\n    \"Facebook\":\"hotel3\",\r\n    \"Twitter\":\"hotel3\",\r\n    \"IsActive\":true,\r\n    \"CreateBy\":\"Bhavik\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:50124/Hotels/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Hotels",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Hotel4",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Hotel4\",\r\n    \"Address\":\"B-X,Abc street,Near someting, somewhere on earth\",\r\n    \"City\":\"Vadodra\",\r\n    \"Pincode\":\"456789\",\r\n    \"ContactNumber\":\"9876542109\",\r\n    \"ContactPerson\":\"Manager Kiran\",\r\n    \"Website\":\"hotel4.com\",\r\n    \"Facebook\":\"hotel4\",\r\n    \"Twitter\":\"hotel4\",\r\n    \"IsActive\":true,\r\n    \"CreateBy\":\"Bhavik\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Hotels/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Hotels",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add room to Hotel with id1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Room2\",\r\n    \"Category\":\"Category2\",\r\n    \"Price\":14000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"Bhavik\",\r\n    \"HotelId\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add room to hotel with id 1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Room1\",\r\n    \"Category\":\"Category1\",\r\n    \"Price\":15000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"Bhavik\",\r\n    \"HotelId\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add room to hotel with id 1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Room3\",\r\n    \"Category\":\"Category3\",\r\n    \"Price\":16000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"Bhavik\",\r\n    \"HotelId\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add room to hotel with 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Room3\",\r\n    \"Category\":\"Category2\",\r\n    \"Price\":12000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"Bhavik\",\r\n    \"HotelId\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add room to hotel with 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Room1\",\r\n    \"Category\":\"Category1\",\r\n    \"Price\":13000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"Bhavik\",\r\n    \"HotelId\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add room to hotel with 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Room3\",\r\n    \"Category\":\"Category1\",\r\n    \"Price\":10000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"Bhavik\",\r\n    \"HotelId\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add room to hotel with id 3",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Room1\",\r\n    \"Category\":\"Category1\",\r\n    \"Price\":13000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"Bhavik\",\r\n    \"HotelId\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add room to hotel with Id 3",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Room2\",\r\n    \"Category\":\"Category2\",\r\n    \"Price\":13000,\r\n    \"IsActive\":true,\r\n    \"CreatedBy\":\"Bhavik\",\r\n    \"HotelId\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All hotels",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50124/Hotels/List",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Hotels",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Rooms Default by Price",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50124/Rooms/List",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Rooms by city",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50124/Rooms/List/city",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"List",
+						"city"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List rooms by category ",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50124/Rooms/List/category",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"List",
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Availability of Room",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RoomId\":2,\r\n    \"BookingDate\":\"2020-2-2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Rooms/Availability",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Rooms",
+						"Availability"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a new Booking",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BookingDate\":\"2020-2-2\",\r\n    \"RoomId\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Bookings/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Bookings",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Booking Date",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":1,\r\n    \"BookingDate\":\"2020-1-30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Bookings/UpdateDate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Bookings",
+						"UpdateDate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Booking Status",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":1,\r\n    \"Status\":\"definitive\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50124/Bookings/UpdateStatus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Bookings",
+						"UpdateStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a booking",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "abc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50124/Bookings/Delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50124",
+					"path": [
+						"Bookings",
+						"Delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

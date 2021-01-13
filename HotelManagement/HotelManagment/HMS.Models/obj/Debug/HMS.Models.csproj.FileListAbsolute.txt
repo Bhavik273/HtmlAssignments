@@ -1,0 +1,6 @@
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.Models\bin\Debug\HMS.Models.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.Models\bin\Debug\HMS.Models.pdb
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyReference.cache
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.Models\obj\Debug\HMS.Models.dll
+D:\Gateway Pre-Training Assignments\HtmlAssignments\HotelManagement\HotelManagment\HMS.Models\obj\Debug\HMS.Models.pdb
